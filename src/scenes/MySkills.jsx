@@ -73,35 +73,26 @@ const MySkills = () => {
       {isAboveLarge
         ? <div className="flex justify-center mt-[-70px]">
             <motion.div
-              className="sm:grid sm:grid-cols-3"
+              className="sm:grid sm:grid-cols-5"
               variants={container}
               initial="hidden"
               whileInView="visible"
               viewport={{once: true, amount: 0.2}}
             >
-              {/* ROW 1 */}
-              <div className="flex justify-center text-center items-center m-5 bg-white hover:bg-yellow text-deep-blue hover:rotate-[360deg] transition duration-500
-              rounded-full aspect-square self-center text-3xl scale-75 hover:scale-90">
-                Front End Skills
-              </div>
+              {/* front-end-animation*/}
+
               {/*you can add links like this <Skill link='https://react.dev/' title="Skill 1" variation="p-5 scale-75 group-hover:scale-90 transition duration-500 group-hover:rotate-180" /> */}
 
               <Skill title="Skill 1" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-180" />
               <Skill title="Skill 2" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-[360deg]" />
-
-              {/* ROW 2 */}
               <Skill title="Skill 3" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12"/>
               <Skill title="Skill 4" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12"/>
               <Skill title="Skill 5" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12"/>
 
-              {/* ROW 3 */}
+              {/* back-end-animation */}
               <Skill title="Skill 6" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75" />
               <Skill title="Skill 7" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75"/>
-
-              <div className="flex justify-center text-center items-center m-5 scale-90 bg-yellow hover:bg-white text-deep-blue
-              rounded-full max-w-[400px] max-h-[400px] aspect-square self-center text-3xl transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75">
-                Back End Skills
-              </div>
+              <Skill title="Skill 8" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75"/>
 
             </motion.div>
           </div>

@@ -12,7 +12,7 @@ const Landing = ({setSelectedPage}) => {
       className="group transition-500 bg-hero flex flex-col justify-around xs:justify-center md:flex-row md:flex md:justify-between md:items-center gap-8 xs:gap-16 h-screen"
     >
       {/* IMAGE SECTION */}
-      <div className=" z-10 flex large-screens:h-[50%] large-screens:items-end justify-center md:order-2 xCustom:w-[45vw] xCustom:justify-end">
+      {/* <div className=" z-10 flex large-screens:h-[50%] large-screens:items-end justify-center md:order-2 xCustom:w-[45vw] xCustom:justify-end">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -74,7 +74,7 @@ const Landing = ({setSelectedPage}) => {
               </div>}
         </motion.div>
 
-      </div>
+      </div> */}
 
       {/* MAIN TEXT */}
       <div className="z-30 large-screens:h-[50%] custom-screen:mt-9 large-screens:mb-[10vh] large-screens:flex large-screens:flex-col large-screens:my-auto large-screens:justify-evenly xCustom:w-[51.5vw] xCustom:justify-end">
