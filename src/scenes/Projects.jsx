@@ -15,7 +15,7 @@ const projectVariant = {
   visible: {opacity: 1, scale: 1},
 };
 
-const Project = ({title, subtitle, link}) => {
+const Project = ({title, link}) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-80 transition duration-500
     bg-black z-30 flex flex-col justify-center items-center text-center p-16 text-white`;
   const projectTitle = title.split (' ').join ('-').toLowerCase ();
@@ -24,8 +24,8 @@ const Project = ({title, subtitle, link}) => {
     <motion.div variants={projectVariant} className="relative" >
       <a href={link} target="_blank" rel="noreferrer">
         <div className={overlayStyles}>
-          <p className="text-2xl">{title}</p>
-          <p className="mt-7">{subtitle}</p>
+          <p className="text-1xl">{title}</p>
+          {/* <p className="mt-7">{subtitle}</p> */}
         </div>
         <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
       </a>
@@ -76,21 +76,18 @@ const Projects = () => {
           </div>
           <Project
             title="Best React Project"
-            subtitle={
-              `Best React js Project with \nFirebase as backend.`
-            }
             link="https://tiendaropa-sebastianfontana.web.app/"
           />
-          <Project title="Best Blog Project" subtitle={`A WordPress personal and \ninsightful blog website`} link="https://s3v3n37.online/"/>
+          <Project title="Best Blog Project" link="https://s3v3n37.online/"/>
 
           {/* ROW 2 */}
-          <Project title="Best Lp Project" subtitle={`Done with Luxury Presence \nMigrations Team.`} link="https://liveyoursanctuary.com/"/>
-          <Project title="Best CMS Project" subtitle={`Exploring the amazing \ncapabilities of AI.`} link="https://sbn7art.site/" />
-          <Project title="Best Php Project" subtitle={`Optimizing sales and stock \nmanagement for efficiency.`} link="https://fontana7-3rd-version.online/"/>
+          <Project title="Best Lp Project" link="https://liveyoursanctuary.com/"/>
+          <Project title="Best CMS Project" link="https://sbn7art.site/" />
+          <Project title="Best Php Project" link="https://fontana7-3rd-version.online/"/>
 
           {/* ROW 3 */}
-          <Project title="Best Template Project" subtitle={`One of the best freelance \nprojects I've made so far.`} link={"https://sebastianf777.github.io/personal-prototype/"}/>
-          <Project title="Best Game Project" subtitle={`Trying to develop a game using \nVanilla Javascript`} link={'https://sebastianf777.github.io/proyectoJS/'}/>
+          <Project title="Best Template Project" link={"https://sebastianf777.github.io/personal-prototype/"}/>
+          <Project title="Best Game Project" link={'https://sebastianf777.github.io/proyectoJS/'}/>
           <div className="flex justify-center text-center items-center p-10 bg-yellow group-hover:bg-white text-deep-blue
                text-2xl">
           
