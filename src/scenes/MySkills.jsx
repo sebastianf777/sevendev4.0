@@ -73,7 +73,7 @@ const MySkills = () => {
       {isAboveLarge
         ? <div className="flex justify-center mt-[-70px]">
             <motion.div
-              className="sm:grid sm:grid-cols-5"
+              className="sm:grid sm:grid-cols-6"
               variants={container}
               initial="hidden"
               whileInView="visible"
@@ -83,16 +83,21 @@ const MySkills = () => {
 
               {/*you can add links like this <Skill link='https://react.dev/' title="Skill 1" variation="p-5 scale-75 group-hover:scale-90 transition duration-500 group-hover:rotate-180" /> */}
 
-              <Skill title="Skill 1" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-180" />
-              <Skill title="Skill 2" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-[360deg]" />
+            
               <Skill title="Skill 3" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12"/>
               <Skill title="Skill 4" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12"/>
               <Skill title="Skill 5" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12"/>
-
+             
+              <Skill title="Skill 12" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12"/>
+              <Skill title="Skill 1" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-180" />
+              <Skill title="Skill 2" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-[360deg]" />
               {/* back-end-animation */}
               <Skill title="Skill 6" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75" />
               <Skill title="Skill 7" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75"/>
               <Skill title="Skill 8" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75"/>
+              <Skill title="Skill 9" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75"/>
+              <Skill title="Skill 10" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75"/>
+              <Skill title="Skill 11" variation="p-5 scale-90 transition duration-500 hover:animate-php-animation opacity-100 hover:scale-75"/>
 
             </motion.div>
           </div>
