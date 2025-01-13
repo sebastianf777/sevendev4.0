@@ -69,7 +69,7 @@ const Projects = () => {
           whileInView="visible"
           viewport={{once: true, amount: 0.2}}
         >
-          {/* ROW 1 */}
+         
           <Project title="LP Websites N1" link="https://8blocksrealestate.com/"/>
           <Project title="LP Websites N2" link="https://costamodernproperties.com/"/>
           <Project title="LP Websites N4" link="https://elizabethalligoodassociates.com/"/>
@@ -84,19 +84,18 @@ const Projects = () => {
             title="React Training"
             link="https://tiendaropa-sebastianfontana.web.app/"
           />
-          <Project title="Best Blog Project" link="https://s3v3n37.online/"/>
+          <Project title="Php Project" link="https://fontana7-3rd-version.online/"/>
 
-          {/* ROW 2 */}
+          <Project title="Template Training" link="https://sebastianf777.github.io/proyectoJS/"/>
+
+      
           <Project title="CMS Project" link="https://sbn7art.online/" />
-          <Project title="Best Php Project" link="https://fontana7-3rd-version.online/"/>
 
-          {/* ROW 3 */}
-          <Project title="Best Template Project" link={"https://sebastianf777.github.io/personal-prototype/"}/>
-          <Project title="Best Game Project" link={'https://sebastianf777.github.io/proyectoJS/'}/>
-          <div className="flex justify-center text-center items-center p-10 bg-yellow group-hover:bg-white text-deep-blue
-               text-2xl">
+       
+          <Project title="Client Project N1" link={'https://sebastianf777.github.io/personal-prototype/'}/>
+          <Project title="Client Project N2" link={'https://sebastianf777.github.io/personal2-prototype/'}/>
+
           
-          </div>
         </motion.div>
       </div>
     </section>
