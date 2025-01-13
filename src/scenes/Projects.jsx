@@ -70,10 +70,8 @@ const Projects = () => {
           viewport={{once: true, amount: 0.2}}
         >
           {/* ROW 1 */}
-          <div className="flex justify-center text-center items-center p-10 bg-yellow group-hover:bg-white text-deep-blue
-               text-2xl">
-           
-          </div>
+          <Project title="LP Websites N1" link="https://liveyoursanctuary.com/"/>
+
           <Project
             title="Best React Project"
             link="https://tiendaropa-sebastianfontana.web.app/"
@@ -81,7 +79,6 @@ const Projects = () => {
           <Project title="Best Blog Project" link="https://s3v3n37.online/"/>
 
           {/* ROW 2 */}
-          <Project title="Best Lp Project" link="https://liveyoursanctuary.com/"/>
           <Project title="Best CMS Project" link="https://sbn7art.site/" />
           <Project title="Best Php Project" link="https://fontana7-3rd-version.online/"/>
 
