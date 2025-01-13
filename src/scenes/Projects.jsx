@@ -70,16 +70,24 @@ const Projects = () => {
           viewport={{once: true, amount: 0.2}}
         >
           {/* ROW 1 */}
-          <Project title="LP Websites N1" link="https://liveyoursanctuary.com/"/>
+          <Project title="LP Websites N1" link="https://8blocksrealestate.com/"/>
+          <Project title="LP Websites N2" link="https://costamodernproperties.com/"/>
+          <Project title="LP Websites N4" link="https://elizabethalligoodassociates.com/"/>
+          <Project title="LP Websites N5" link="https://gimenezrealtygroup.echeloncalifornia.com/"/>
+          <Project title="LP Websites N6" link="https://joyliu.helmrealestate.com/"/>
+          <Project title="LP Websites N8" link="https://remilestone.com/"/>
+          <Project title="LP Websites N11" link="https://www.raintownrealty.com/"/>
+          <Project title="LP Websites N12" link="https://liveyoursanctuary.com/"/>
+          <Project title="LP Websites N15" link="https://liveyoursanctuary.com/"/>
 
           <Project
-            title="Best React Project"
+            title="React Training"
             link="https://tiendaropa-sebastianfontana.web.app/"
           />
           <Project title="Best Blog Project" link="https://s3v3n37.online/"/>
 
           {/* ROW 2 */}
-          <Project title="Best CMS Project" link="https://sbn7art.site/" />
+          <Project title="CMS Project" link="https://sbn7art.online/" />
           <Project title="Best Php Project" link="https://fontana7-3rd-version.online/"/>
 
           {/* ROW 3 */}
