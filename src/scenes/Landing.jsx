@@ -77,7 +77,7 @@ const Landing = ({setSelectedPage}) => {
       </div> */}
 
       {/* MAIN TEXT */}
-      <div className="z-30 large-screens:h-[50%] custom-screen:mt-9 large-screens:mb-[10vh] large-screens:flex large-screens:flex-col large-screens:my-auto large-screens:justify-evenly xCustom:w-[51.5vw] xCustom:justify-end">
+      <div className="z-30 large-screens:h-[50%]  custom-screen:mt-9 large-screens:mb-[10vh] large-screens:flex large-screens:flex-col large-screens:my-auto large-screens:justify-evenly xCustom:w-[51.5vw] xCustom:justify-end">
         {/* HEADINGS */}
         <motion.div
           initial="hidden"
@@ -90,13 +90,13 @@ const Landing = ({setSelectedPage}) => {
           }}
         >
           {isAboveLarge
-            ? <p className="text-6xl z-10 text-center md:text-start text-white group-hover:text-yellow animate-bounce w-fit">
+            ? <p className="text-6xl z-10 text-center md:text-start text-white group-hover:text-yellow mt-[76px] w-fit">
                 <div className="transition duration-500 hover:text-white hover:scale-105">
                   Sebastian {''}
                   Fontana
                 </div>
               </p>
-            : <p className="text-3xl xs:text-6xl z-10 text-center md:text-start text-white group-hover:text-yellow animate-bounce pointer-events-none">
+            : <p className="text-3xl xs:text-6xl z-10 text-center md:text-start text-white group-hover:text-yellow pointer-events-none">
                 <div className="transition duration-500 hover:text-white hover:scale-105">
                   Sebastian {''}
                   <br />
