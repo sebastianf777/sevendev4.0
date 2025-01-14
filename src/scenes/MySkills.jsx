@@ -71,7 +71,7 @@ const MySkills = () => {
 
       {/* SKILLS */}
       {isAboveLarge
-        ? <div className="flex justify-center mt-[-70px]">
+        ? <div className="flex justify-center mt-[-65px]">
           <motion.div
             className="sm:grid sm:grid-cols-6"
             variants={container}
@@ -86,9 +86,9 @@ const MySkills = () => {
 
             <Skill title="Skill 3" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12" />
             <Skill title="Skill 4" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12" />
-            <Skill title="Skill 5" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12" />
+            <Skill title="Skill 5" variation="p-5 scale-75 transition animate-initial-rotate duration-500 transform hover:animate-rotate-y-360" />
 
-            <Skill title="Skill 12" variation="p-5 scale-75 hover:scale-100 transition duration-500 hover:rotate-12" />
+            <Skill title="Skill 12" variation="p-5 scale-75 transition animate-initial-rotate duration-500 transform hover:animate-rotate-y-360" />
             <Skill title="Skill 1" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-180" />
             <Skill title="Skill 2" variation="p-5 scale-75 hover:scale-90 transition duration-500 hover:rotate-[360deg]" />
             {/* back-end-animation */}

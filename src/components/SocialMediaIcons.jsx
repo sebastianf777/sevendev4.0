@@ -20,8 +20,8 @@ const SocialMediaIcons = () => {
 
 
   return (
-    <div className="flex justify-center md:justify-start my-4 gap-7 extra-small-screens:gap-3">
-      <SocialMedia link="https://www.facebook.com/profile.php?id=100079154672981"  socialType="whatsapp" />
+    <div className="flex justify-center md:justify-start gap-7 extra-small-screens:gap-3">
+      <SocialMedia link="https://wa.me/393382604331"  socialType="whatsapp" />
       <SocialMedia link="https://www.linkedin.com/in/sebastianfontana/" socialType="linkedin" />
       {/* <SocialMedia link="https://twitter.com/Sebastianf_27" socialType="twitter" /> */}
       {/* <SocialMedia link="https://www.instagram.com/sbn7.dev/" socialType="instagram" /> */}
